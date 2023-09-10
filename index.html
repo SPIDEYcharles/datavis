@@ -3,12 +3,34 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <input type="text" id="input-el">
-        <button id="input-btn">SAVE INPUT</button>
-        <button id="tab-btn">SAVE TAB</button>
-        <button id="delete-btn">DELETE ALL</button>
-        <ul id="ul-el">
-        </ul>
+        <div id="gg" class="container">
+            <h1> Metric/Imperial Unit conversion</h1>
+            <input id="foi"></input>
+            <button id="btn" onclick="length()">Convert</button>
+        </div>
+        <div id="gg" class="space">
+               
+                   <div class="l" id="quant">
+                       <p id="bold">Length (Meter/Feet)</p>
+                       <p id="l" class="nor"></p>
+                        </div>  
+                       
+                   <div class="v" id="quant">
+                       <p id="bold">Volume (Liter/Gallon)</p>
+                       <p id="v" class="nor"></p>
+                       
+                       
+                       </div>   
+                   <div class="m" id="quant">
+                       <p id="bold">Mass (Kilogram/Pound)</p>
+                       <p id="m" class="nor"></p>
+                       
+                       
+                       
+                       </div>   
+               
+                
+        </div>
         <script src="index.js"></script>
     </body>
 </html>

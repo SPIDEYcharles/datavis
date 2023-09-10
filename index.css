@@ -1,0 +1,153 @@
+body{
+    max-width: 1920px;
+    max-height: 1080px;
+    
+    padding-left: 0px;
+    background-color: white;
+    display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 5px;
+   
+    
+}
+
+
+#gg{
+    
+     margin-top: 0px;
+     margin-right:0px;
+     padding: 5px;
+     
+     
+     min-width:400px;
+     width:100%;
+     
+     
+    display: flex;   
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+
+.container{
+   
+   background-color: #0091a0;
+   border-radius:  15px 15px 0 0;
+   height:240px;
+     
+   
+   }
+.space{
+ 
+   background-color: #efefff;
+   border-radius:  0 0 15px 15px ;
+   height:380px;
+    
+ 
+   }
+.l{
+    position: absolute;
+   margin-top:30px;
+     
+ }
+.v{
+    position: absolute;
+     margin-top:145px;
+    
+}
+.m{
+    position: absolute;
+  margin-top: 260px;
+} 
+ 
+#btn{
+   
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background: white;
+    color: #0091a0;
+    border: none;
+    font-size: 15px;
+    margin: 160px;
+    margin-top:180px;     
+}
+#foi{
+    position:absolute;
+    background-color: #0091a0;
+    
+    padding-left:15px;
+    padding-right: 10px;
+    
+    height: 100px;
+    width:120px;
+    margin-top: 60px;
+    border-radius: 5px;
+    border-color: green;
+    border-width: 10px;
+    border: 2px solid #30b1c0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    color: transparent;
+    text-shadow: 0 0 0 #fff;
+    
+    font-family: Inter;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    
+    text-align: center;
+  
+}
+h1{
+    justify-self: center;
+    margin-left: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top:25px;
+}
+#quant{
+       background-color: white;
+       position: absolute;
+       min-width: 300px;
+       width:87.5%;
+       height:90px;
+       display: flex;
+       flex-flow: wrap;
+       justify-content: center;
+       
+       
+       
+   }
+
+#bold{
+   
+    height: 25px;
+    padding:5px;
+    margin-top: 10px;
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    color: #0091a0;
+    
+}
+.nor{
+    position: absolute;
+    
+    margin-top: 50px;
+    
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    color: #0091a0;
+    
+}
