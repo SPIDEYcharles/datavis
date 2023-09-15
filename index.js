@@ -15,15 +15,13 @@ btn.addEventListener("click",function(){
        basevalue=p
       input.setAttribute("value", basevalue)
     }
-    if(basevalue!=""){
-        basevalue=p
-        input.setAttribute("value", basevalue)
     
-    document.getElementById("l").innerText=`${basevalue} meter = ${basevalue*3.281.toFixed(2)} feet`
+    
+    document.getElementById("l").innerText=`${basevalue} meter = ${(basevalue*3.281).toFixed(3)} feet | ${basevalue} feet = ${(basevalue/3.281).toFixed(3)} meter`
 
-    document.getElementById("v").innerText=`${basevalue} liter = ${basevalue*0.264.toFixed(2)} gallon`
+    document.getElementById("v").innerText=`${basevalue} liter = ${(basevalue*0.264).toFixed(3)} gallon | ${basevalue} gallon = ${(basevalue/0.264).toFixed(3)} liter`
 
-    document.getElementById("m").innerText=`${basevalue} kilogram = ${basevalue*2.204.toFixed(2)} pound`
+    document.getElementById("m").innerText=`${basevalue} kg = ${(2.204*basevalue).toFixed(3)} pound | ${basevalue} pound = ${(2.204*basevalue).toFixed(3)} kg`
 
-     }
+     
 })
